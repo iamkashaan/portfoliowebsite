@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Github, Download, Mail, Linkedin } from 'lucide-react';
+import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -26,13 +27,25 @@ const Hero = () => {
                   Available for new opportunities
                 </div>
                 
-                <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                  <span className="text-white">Mohd</span>
-                  <br />
-                  <span className="text-gradient bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">
-                    Kashaan
-                  </span>
-                </h1>
+              <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                        <span className="text-white">Mohd</span>
+                        <br />
+                        <span className="text-gradient bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">
+                         <TypeAnimation
+                            sequence={[
+                              'Kashaan',
+                              1000,
+                              '',
+                              500,
+                              'Kashaan',
+                              1000,
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            repeat={Infinity}
+                          />
+                        </span>
+                      </h1>
                 
                 <div className="space-y-2">
                   <p className="text-2xl md:text-3xl font-semibold text-white">
