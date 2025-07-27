@@ -1,4 +1,18 @@
-  {
+const Projects = () => {
+  const projects = [
+    {
+      title: "Ultimate CI/CD Pipeline – End-to-End DevOps Project",
+      year: "",
+      description: "",
+      tools: ["Jenkins", "Maven", "SonarQube", "SAST", "DAST", "Docker", "Argocd", "Helm", "Kubernetes", "Java"],
+      outcomes: [
+        "Implemented an end to end DevOps Automation pipeline for Java Spring Boot App and used Jenkins for multi-stage CI pipelines and used Maven for build which includes various stages such as Build, Unit testing, Static code analysis, SAST, DAST, Creation of Docker Images",
+        "Reduced deployment time by 70% by automating CI/CD pipelines",
+        "Improved developer onboarding and release repeatability, reducing setup/config time from 12%",
+        "Delivered a fully automated pipeline that compiles, tests, builds Docker images, and deploys to Kubernetes"
+      ]
+    },
+    {
       title: "Three -Tier E-Commerce Deployment on AWS EKS",
       year: "",
       description: "",
