@@ -11,11 +11,11 @@ const Skills = () => {
     },
     {
       category: "CI/CD Tools",
-      skills: ["Jenkins", "GitHub Actions"]
+      skills: ["Jenkins", "GitHub Actions","ArgoCD"]
     },
     {
       category: "Cloud",
-      skills: ["AWS EC2", "AWS VPC", "AWS S3", "Route53"]
+      skills: ["AWS EC2", "AWS VPC", "AWS S3", "Route53","AWS EKS","Azure"]
     },
     {
       category: "Containers",
