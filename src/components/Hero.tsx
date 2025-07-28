@@ -27,24 +27,24 @@ const Hero = () => {
                   Available for new opportunities
                 </div>
                 
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                        <span className="text-white">
-                         <TypeAnimation
-                            sequence={[
-                              'Mohd Kashaan',
-                              500,
-                              '',
-                              550,
-                              'Mohd Kashaan',
-                              1000,
-                            ]}
-                            wrapper="span"
-                            speed={50}
-                            repeat={Infinity}
-                            cursor={true}
-                          />
-                        </span>
-                      </h1>
+              <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                 <span className="text-white">
+                   <TypeAnimation
+                      sequence={[
+                        'Mohd Kashaan',
+                         2000, // Wait 2 seconds
+                        '\u00A0', // Use a non-breaking space to prevent line jump
+                          500,  // Wait 0.5 seconds before re-typing
+                         'Mohd Kashaan',
+                          2000, // Wait 2 seconds
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      repeat={Infinity}
+                      cursor={true}
+                    />
+                  </span>
+                </h1>
                 
                 <div className="space-y-2">
                   <p className="text-2xl md:text-3xl font-semibold text-white">
