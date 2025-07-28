@@ -32,9 +32,9 @@ const Hero = () => {
                          <TypeAnimation
                             sequence={[
                               'Mohd Kashaan',
-                              150,
+                              500,
                               '',
-                              150,
+                              550,
                               'Mohd Kashaan',
                               1000,
                             ]}
