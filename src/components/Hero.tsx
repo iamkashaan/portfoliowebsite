@@ -27,22 +27,21 @@ const Hero = () => {
                   Available for new opportunities
                 </div>
                 
-              <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                        <span className="text-white">Mohd</span>
-                        <br />
-                        <span className="text-gradient bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                        <span className="text-white">
                          <TypeAnimation
                             sequence={[
-                              'Kashaan',
-                              1000,
+                              'Mohd Kashaan',
+                              150,
                               '',
-                              500,
-                              'Kashaan',
+                              150,
+                              'Mohd Kashaan',
                               1000,
                             ]}
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
+                            cursor={true}
                           />
                         </span>
                       </h1>
